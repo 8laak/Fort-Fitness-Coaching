@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+</head>
+
+
+<link rel="stylesheet" type="text/css" href="css/services.css">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+  <nav>
+ <!-- This is the nav bar -->
+          <div class="logo" id="logo"><a href="home.html"><p>Fort Fitness Coaching</p></a>
+              </div>
+              <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="successstories.html">Success Stories</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="login.html">Log out</a></li>
+          </ul>
+            <div class="access">
+                <a href="#" id="cart"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+
+    </nav>
+
+
+<!-- section -->
+<main id="main" >
+
+
+<!-- Our services collection -->
+<section class="categories">
+    <div class="title-container">
+        <h1>Our Services</h1>
+    </div>
+
+    <div class="card">
+        <div class="item-container" id="0">
+            <div class="card-item">
+              <p id="item-name">Basic plan</p>
+              <br>
+                <img src="images/services4.png" alt="img" id="card-img">
+                <br>
+                <br>
+              <div class="text">
+                  <p>Consist of a three-month workout plan</p>
+                  <p>Includes a personal trainer for 3 days in a week </p>
+                </ul>
+                </div>
+            </div>
+
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : R 650pm </h3>
+            </div>
+
+
+        <div class="item-container" id="1">
+            <div class="card-item" >
+                <p id="item-name"> Super plan</p>
+                <br>
+                <img src="images/services9.png" alt="img" id="card-img">
+                <br>
+                <br>
+                <div class="text">
+                    <p>Consist of a six-month workout plan</p>
+                    <p>Includes a personal trainer for 3 days in a week </p>
+                </div>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : R 990pm </h3>
+        </div>
+
+        <div class="item-container" id="2">
+            <div class="card-item" >
+              <p id="item-name"> Ultimate plan</p>
+              <br>
+                <img src="images/services8.png" alt="img" id="card-img">
+                <br>
+                <br>
+                <div class="text">
+                  <p>Consist of a year workout plan</p>
+                  <p>Includes a personal trainer for 5 days in a week</p>
+              </div>
+            </div>
+            <i class="fa fa-shopping-cart" id="add-to-cart"></i>
+            <h3 id="item-price">Price : R 1450pm </h3>
+        </div>
+
+
+    </div>
+</section>
+
+
+</main>
+<!-- section ends -->
+
+
+<!--Our services with the details page -->
+<div id="details-page">
+    <div class="details">
+        <div class="items-detail">
+            <div class="image-container">
+                <img src="/images/redmiK20.jpg" alt="" id="details-img">
+            </div>
+            <div class="details-card">
+                <h2 id="detail-title">Title here</h2>
+                <h4 id="detail-price">Price : R 100</h4>
+                <p id="you-save">You save : (Rs 50)</p>
+
+                <p id="spec"><strong>Includes :</strong>
+
+                    <ul>
+
+                        <li>Healthy living tips</li>
+                        <li>Gym bag </li>
+                        <li>Fort Fitness T-shirt</li>
+                        <li>Protein shake with a bottle</li>
+                    </ul>
+                </p>
+                <button id="carts">Add to Cart</button>
+                <button id="buy">Back</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of services details -->
+
+
+<!--shopping cart list section -->
+<div id="cart-container">
+    <p id="cart-title">Your <strong> Fitness Cart</strong></p id="cart-title">
+    <div id="empty-cart">
+        <h1>Is Empty...</h1>
+        <br>
+        <br>
+        <form action="services.html">
+        <input type="submit" id="back" Value="Back" >
+      </form>
+    </div>
+
+    <div id="cart-with-items">
+        <div class="cart-column">
+            <h3>Plan</h3>
+            <h3>Plan Name</h3>
+            <h3>Total </h3>
+            <h3>Quantity</h3>
+            <h3>Remove</h3>
+        </div>
+        <div id="item-body">
+        </div>
+
+        <div id="total">
+            <h3 id="total-items"></h3>
+            <h2 id="total-amount"></h2>
+            <h3 id="you-saved"></h3>
+            <br>
+            <form action="checkout.html">
+            <input type="submit" id="checkout" Value="Check out" >
+          </form>
+        </div>
+    </div>
+</div>
+
+ <!-- footer section -->
+<footer>
+
+  <div class="footer-stuff">
+
+
+  <h3>Fort Fitness Coaching</h3>
+    <p>Want to know more, find us on social media</P>
+  <div class="social-media">
+    <a href="https://www.facebook.com"><i class="fa fa-facebook-f"></i><a>
+    <a href="https://www.instagram.com"><i class="fa fa-instagram"></i><a>
+    <a href="https://www.twitter.com"><i class="fa fa-twitter"></i><a>
+    <a href="https://www.youtube.com"><i class="fa fa-youtube"></i><a>
+</div>
+<div>
+      <p class="copyright" id="copyright">Copyright by Fort Fitness Coaching 2021</P>
+  </div>
+  </footer>
+  <!--end of footer section -->
+<script src="javascript/services.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign up</title>
+    <link rel="stylesheet" type="text/css" href="css/signup.css">
+  </head>
+  <body>
+    <form name="form1" class="center" action="home.html" method="post" onsubmit="return fncValidate();" autocomplete="off">
+
+      <h1>Sign Up</h1>
+
+<!--signup form section -->
+        <input type="text" name="fname" placeholder="Enter Username" size="20">
+        <input type="text" name="lname" placeholder="Enter Surname" size="20">
+        <span id=gen><input type="radio" name="gender" value="male" id="male"> Male
+        <input type="radio" name="gender" value="female" id="female"> Female</span>
+        <textarea name="address" placeholder="Address" class="textarea-field"></textarea>
+        <select id="country">
+          <option value="">Select a provice</option>
+          <option value="EC">Eastern Cape</option>
+          <option value="FS">Free State</option>
+          <option value="GP">Gauteng</option>
+          <option value="KZN">KwaZulu-Natal</option>
+          <option value="LP">Limpopo</option>
+          <option value="MP">Mpumalanga</option>
+          <option value="NC">Northern Cape</option>
+          <option value="NW">North West</option>
+          <option value="WC">Western Cape</option>
+        </select>
+
+        <input type="text" name="phone" placeholder="Enter phone number">
+        <input type="text" name="email" placeholder="Enter email">
+        <input type="password" name="password" placeholder="Enter password">
+        <input type="password" name="Conpassword" placeholder="Confirm password">
+
+
+
+
+    <input type="submit" name="submit" Value="Sign In" >
+      <input type="reset" name="reset" Value="Reset" >
+
+
+
+  </form>
+  <p class="signup">Already have an account? <a href="login.html"> Login</a></p>
+  <script src="javascript/signup.js"></script>
+  </body>
+</html>

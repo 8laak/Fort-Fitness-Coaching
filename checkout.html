@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Checkout</title>
+    <link rel="stylesheet" type="text/css" href="css/checkout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    <!--Nav bar section -->
+    <nav>
+
+        <div class="logo" id="logo"><a href="home.html"><p>Fort Fitness Coaching</p></a>
+            </div>
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="successstories.html">Success Stories</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+              <li><a href="login.html">Log out</a></li>
+        </ul>
+          <div class="access">
+              <a href="#" id="cart"><i class="fa fa-shopping-cart"></i></a>
+          </div>
+
+  </nav>
+<!--card form section -->
+  <form name="form2" class="center" action="home.html" method="post" onsubmit="return fncValidate();" autocomplete="off">
+
+      <h1>Check out</h1>
+
+      <input type="text" id="owner" name="oname" placeholder="CARD OWNER" size="20">
+      <input type="text" id="cvc" name="cvc" placeholder="CVC">
+      <img src="images/mcard.png" alt="card">
+      <img src="images/visa.png" alt="card">
+      <input type="text" id="card" name="cnumber" placeholder="CARD NUMBER">
+
+      <select id="months">
+              <option value="">EXP</option>
+              <option value="Jan">Jan</option>
+              <option value="Feb">Feb</option>
+              <option value="Mar">Mar</option>
+              <option value="Apr">Apr</option>
+              <option value="May">May</option>
+              <option value="Jun">Jun</option>
+              <option value="Jul">Jul</option>
+              <option value="Aug">Aug</option>
+              <option value="Sep">Sep</option>
+              <option value="Oct">Oct</option>
+              <option value="Nov">Nov</option>
+              <option value="Dec">Dec</option>
+      </select>
+
+        <select id="years">
+            <option value="">DATE</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+      </select>
+
+      <input type="submit" name="pay" Value="PAY">
+    </form>
+
+<!--footer section -->
+    <footer>
+
+      <div class="footer-stuff">
+
+
+      <h3>Fort Fitness Coaching</h3>
+        <p>Want to know more, find us on social media</P>
+      <div class="social-media">
+        <a href="https://www.facebook.com"><i class="fa fa-facebook-f"></i><a>
+        <a href="https://www.instagram.com"><i class="fa fa-instagram"></i><a>
+        <a href="https://www.twitter.com"><i class="fa fa-twitter"></i><a>
+        <a href="https://www.youtube.com"><i class="fa fa-youtube"></i><a>
+    </div>
+    <div>
+          <p class="copyright" id="copyright">Copyright by Fort Fitness Coaching</P>
+      </div>
+      </footer>
+
+    <script src="javascript/checkout.js"></script>
+
+  </body>
+</html>
