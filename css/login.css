@@ -1,0 +1,104 @@
+body {
+  font-family: serif;
+  background: url('../images/work1.png');
+  padding: 0;
+  background-size: cover;
+  margin: 0;
+}
+
+/* This is the center section with the login form details */
+.center{
+  text-align: center;
+  width: 290px;
+  padding: 40px;
+  left:50%;
+  top:50%;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  transform: translate(-50%,-50%);
+}
+
+.center h1{
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+.center input[type="text"],.center input[type="password"]{
+  transition: none;
+  padding: 16px 9px;
+  background: white;
+  display: block;
+  text-align: center;
+  border-radius: 8px;
+  border: 4px solid gold;
+  margin: 20px auto;
+  width:220px;
+  outline: none;
+  display: block;
+  cursor: pointer;
+  color: black;
+  font-size: 18px;
+  font: serif;
+  font-weight: bold;
+
+
+}
+
+.center input[type="text"]:hover{
+  background: transparent;
+  border: 2px solid #0568c1;
+}
+
+.center input[type="password"]:hover{
+  background: transparent;
+  border: 2px solid #0568c1;
+}
+
+.center input[type="submit"]{
+
+  background: none;
+  border:0;
+  margin: 20px auto;
+  text-align: center;
+  cursor: pointer;
+  border:4px solid white;
+  padding: 14px 10px;
+  color: white;
+  width:210px;
+  transition: none;
+  border-radius: 10px;
+  display: block;
+  font-size: 18px;
+  font: serif;
+  font-weight: bold;
+  outline:white;
+
+
+}
+
+.center input[type="submit"]:hover{
+  background: gold;
+}
+
+p{
+  font-size:24px;
+  font: serif;
+  line-height: 24px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+p.signup, p.signup a{
+  font-size: 16px;
+  color:white;
+  padding-bottom: 0;
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+p.signup a:hover{
+  color: gold;
+  text-decoration: underline;
+}

@@ -1,0 +1,439 @@
+/*My first Style Sheet*/
+*{
+  text-decoration: none;
+}
+
+.body {
+  background-color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+    position: relative;
+    display: inline-block;
+}
+nav{
+  height: 75px;
+  background-color: #FFFFFF
+}
+
+.logo p {
+  padding:15px 40px;
+  margin: 20px;
+  font-style: 25px;
+  line-height:23px;
+  float: left;
+  color: black;
+  font-size: 30px
+}
+
+nav ul{
+  margin-right: 18px;
+  float: right;
+}
+
+nav ul li {
+  margin: 0 30px;
+  display: inline-block;
+  line-height: 70px;
+}
+
+nav ul li a{
+  font-family: fantasy;
+  border-radius: 4px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: gold;
+}
+
+a.active,a:hover{
+  background: black;
+  height: 80px;
+  transition: 0.6s;
+}
+/*displays the background image*/
+.success-image{
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 96vh;
+  background-image: url('../images/success.jpg');
+}
+
+#hr2s{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: gold;
+  height: 40px;
+  margin: 0.1em auto;
+  margin-top: 3px;
+
+}
+#stories{
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  font-family: serif;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+#never{
+text-align: center;
+color: gold;
+font-size: 30px;
+font-family:inherent;
+
+}
+#motivator{
+ text-align: center;
+ color: black;
+ font-size: 17px;
+ font-family:inherent;
+ margin-left: 250px;
+ margin-right: 250px;
+
+}
+#hr3{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: gold;
+  height: 1px;
+}
+#transform{
+  text-align: center;
+  font-size: 25px;
+  font-family:inherit;
+  margin-right: 10px;
+  color: #303030;
+}
+#kg1{
+  text-align: left;
+  color: gold;
+  font-size: 20px;
+  font-family:inherit;
+  margin-left: 50px;
+}
+#weightloss-trans{
+  text-align: left;
+  color: 	#484848;
+  font-size: 32px;
+  font-family:inherit;
+  margin-left: 50px;
+  font-style:oblique;
+}
+#hr4{
+  max-width: 120px;
+  background-color: gold;
+  height: 5px;
+  margin: 0px;
+  margin-left: 50px;
+}
+
+#p1{
+  font-size: 18px;
+    height: 1px;
+    width:500px;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 120px;
+    font-style: italic;
+
+}
+
+.weight-results{
+  float: right;
+  padding-left: 80px;
+  padding-top: 0;
+  position: absolute;
+  margin-left: 600px;
+  padding-right: 1px;
+  display: inline-block;
+  height:300px;
+  width:500px;
+}
+.weightloss{
+ border-radius: 50%;
+ border-style: solid;
+ border-width: 5px;
+ border-color: gold;
+ position:absolute;
+}
+/*displays the after weight-loss image*/
+.weightloss img{
+  object-fit: contain;
+  border-radius: 50%;
+  height:300px;
+  width:500px;
+
+}
+.weightloss .transition1{
+  position:absolute;
+  bottom:0;
+  right:0;
+  left:0;
+  height:300px;
+  width:0;
+  background-color: white;
+  overflow: hidden;
+  transition:0.7s;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+.weightloss:hover .transition1{
+  width: 100%;
+
+}
+/*hover to see before weight-loss image*/
+.transition1 img{
+ position:relative;
+ object-fit: contain;
+  color: white;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+#kg2{
+  text-align: left;
+  color: gold;
+  font-size: 20px;
+  font-family:inherit;
+  margin-left: 50px;
+  padding-top: 400px;
+}
+#musclegain-trans{
+  text-align: left;
+  color: black;
+  font-size: 30px;
+  font-family:inherit;
+  margin-left: 50px;
+  color: 	#484848;
+  font-style: oblique;
+}
+#hr5{
+  max-width: 120px;
+  background-color: gold;
+  height: 5px;
+  margin: 0px;
+  margin-left: 50px;
+
+}
+#p2{
+  font-size: 18px;
+  height: 1px;
+  width:500px;
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 120px;
+  font-style: italic;
+}
+.muscle-results{
+  float: right;
+  display:inline-block;
+  padding-right: 1px;
+  padding-top: 0;
+  padding-left: 80px;
+  position: absolute;
+  margin-left: 600px;
+}
+.musclegain{
+ border-radius: 50%;
+ border-style: solid;
+ border-width: 5px;
+ border-color: gold;
+ position:absolute;
+ height:300px;
+ width:500px;
+}
+/*displays the after muscle-gain image*/
+.musclegain img{
+  object-fit: contain;
+    border-radius: 50%;
+    height:300px;
+    width:500px;
+
+}
+.musclegain .transition2{
+  position:absolute;
+  bottom:0;
+  right:0;
+  left:0;
+  height:300px;
+  width:0;
+  background-color: white;
+  overflow: hidden;
+  transition:0.7s;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.musclegain:hover .transition2{
+  width: 100%;
+}
+/*hover to see before muscle-gain image*/
+.transition2 img{
+ position:relative;
+ object-fit: contain;
+  color: white;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+#kg3{
+  text-align: left;
+  color: gold;
+  font-size: 20px;
+  font-family:inherit;
+  margin-left: 50px;
+  padding-top: 450px;
+}
+#healthimprovement-trans{
+  text-align: left;
+  color: black;
+  font-size: 30px;
+  font-family:inherit;
+  margin-left: 50px;
+  color: 	#484848;
+  font-style: oblique;
+}
+#hr6{
+  max-width: 120px;
+  background-color: gold;
+  height: 5px;
+  margin: 0px;
+  margin-left: 50px;
+}
+#p3{
+  font-size: 18px;
+  height: 300px;
+  width:500px;
+  float: left;
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 120px;
+  font-style: italic;
+}
+.health-results{
+
+  display:inline-block;
+  padding-left: 80px;
+  float: right;
+  padding-right: 1px;
+  padding-top: 0px;
+  position: absolute;
+  margin-top: 40px;
+
+}
+.health{
+ border-radius: 50%;
+ border-style: solid;
+ border-width: 5px;
+ border-color: gold;
+ position:absolute;
+ height:300px;
+ width:500px;
+}
+/*displays the after health-improvement image*/
+.health img{
+  object-fit: contain;
+    border-radius: 50%;
+    height:300px;
+    width:500px;
+
+}
+.health .transition3{
+  position:absolute;
+  bottom:0;
+  right:0;
+  left:0;
+  height:300px;
+  width:0;
+  background-color: white;
+  overflow: hidden;
+  transition:0.7s;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.health:hover .transition3{
+  width: 100%;
+}
+/*hover to see before health-improvement image*/
+.transition3 img{
+ position:relative;
+ object-fit: contain;
+  color: white;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+/* footer section*/
+footer{
+    position: absolute;
+    background-color:#edededed;
+    height: 180px;
+    margin-top: 0%;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-stuff h3{
+    font:serif;
+    color: black;
+    margin-top: 20px;
+    font-size: 25px;
+  	font-weight:bold;
+  	line-height:10px;
+}
+
+.footer-stuff p{
+  margin-top: 25px;
+  font-size: 15px;
+  line-height:10px;
+  color: gold;
+}
+
+.social-media {
+  line-height:20px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.social-media a{
+  border-radius: 50%;
+  justify-content: center;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+
+.social-media i{
+  width: 50px;
+  height: 50px;
+  color: black;
+  border-radius: 50%;
+  padding: 10px 10px;
+
+}
+.footer-stuff #copyright {
+  color: black;
+  font-weight: bold;
+  margin-top: 0px
+}
+
+.social-media a:hover{
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	transition:all ease 0.4s;
+  background-color:#000000;
+}
+.social-media a:hover i,.social a:hover i{
+  transition:all ease 0.4s;
+	color:#FFFFFF;
+
+}

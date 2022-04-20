@@ -1,0 +1,239 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+  font-family: serif;
+  background: url('../images/water.png');
+  padding: 0;
+  background-size: cover;
+  margin: 0;
+}
+
+/* This is the nav bar */
+nav{
+  height: 75px;
+  background-color: #FFFFFF
+}
+.logo p {
+  padding:15px 40px;
+  margin: 20px;
+  font-style: 25px;
+  line-height:23px;
+  float: left;
+  color: black;
+  font-size: 30px
+}
+
+nav ul{
+  margin-right: 18px;
+  float: right;
+
+}
+
+nav ul li {
+  margin: 0 30px;
+  display: inline-block;
+  line-height: 70px;
+}
+
+nav ul li a{
+  font-family: fantasy;
+  border-radius: 4px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: gold;
+}
+
+a.active,a:hover{
+  background: black;
+  height: 80px;
+  transition: 0.6s;
+}
+
+
+.access a{
+    font-size: 20px;
+    padding:0 10px;
+    margin-right: 18px;
+    float: right;
+    margin: 0 30px;
+    display: inline-block;
+    line-height: 70px;
+    color: gold;
+    position: relative;
+    border-radius: 4px;
+}
+
+
+/* This is the center section with the contact form details */
+.center{
+  background: rgba(0, 0, 0, 0.4);
+  width: 600px;
+  text-align: center;
+  position: absolute;
+  padding: 40px;
+  left:50%;
+  top:50%;
+  display: inline-grid;
+  transform: translate(-50%,-50%);
+  height: 530px;
+  margin-top: 50px;
+}
+
+.center h1{
+  text-transform: uppercase;
+  color: gold;
+  font-size: 50px;
+}
+
+.center input[type="text"]{
+  background: white;
+  border-radius: 8px;
+  width:500px;
+  color: black;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 2px;
+  height: 70%;
+  border: 2px solid gold;
+  transition: none;
+  cursor: pointer;
+  outline: none;
+  font-stretch: 16px;
+  grid-gap: 20%;
+  font-size: 18px;
+  font: serif;
+  font-weight: bold;
+}
+
+.center input[type="text"]:hover{
+  background: white;
+  border: 2px solid #0568c1;
+}
+
+.center input[type="password"]:hover{
+  background: transparent;
+  border: 2px solid #0568c1;
+}
+
+.textarea-field{
+  background: white;
+  border-radius: 8px;
+  width:500px;
+  color: black;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 2px;
+  height: 100%;
+  border: 2px solid gold;
+  transition: none;
+  cursor: pointer;
+  outline: none;
+  font-stretch: 16px;
+  font: serif;
+  font-size: 18px;
+  font: serif;
+  font-weight: bold;
+}
+
+.textarea-field:hover{
+  background: white;
+  border: 2px solid #0568c1;
+}
+
+.center input[type="submit"],.center input[type="reset"]{
+    background: none;
+    color: white;
+    margin-bottom: 20px;
+    height: 70%;
+    width:200px;
+    text-align: center;
+    font: serif;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: auto;
+    transition: none;
+    display: block;
+    border: 2px solid white;
+    font-size: 18px;
+}
+
+.center input[type="reset"]:hover{
+  background: gold;
+}
+
+.center input[type="submit"]:hover{
+  background: gold;
+}
+
+/* This is the footer */
+footer{
+    position: absolute;
+    background-color:white;
+    height: 180px;
+    margin-top: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-stuff h3{
+    font:serif;
+    color: black;
+    margin-top: 20px;
+    font-size: 25px;
+  	font-weight:bold;
+  	line-height:10px;
+}
+
+.footer-stuff p{
+  margin-top: 25px;
+  font-size: 15px;
+  line-height:10px;
+  color: gold;
+}
+
+.social-media {
+  line-height:20px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.social-media a{
+  border-radius: 50%;
+  justify-content: center;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+
+.social-media i{
+  width: 50px;
+  height: 50px;
+  color: black;
+  border-radius: 50%;
+  padding: 10px 10px;
+
+}
+.footer-stuff #copyright {
+  color: black;
+  font-weight: bold;
+  margin-top: 10px
+}
+
+.social-media a:hover{
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	transition:all ease 0.4s;
+  background-color:#000000;
+}
+.social-media a:hover i,.social a:hover i{
+  transition:all ease 0.4s;
+	color:#FFFFFF;
+
+}
