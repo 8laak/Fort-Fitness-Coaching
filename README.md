@@ -2,4 +2,4 @@
 
 A website for an online-based fitness coaching business, Developed as a final assessment for my Information Systems course
 
-Download the.zip file to run the website natively.
+Download the .zip file to run the website natively.
